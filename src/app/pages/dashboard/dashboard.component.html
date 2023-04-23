@@ -1,0 +1,329 @@
+<div class="row">
+  <span class="page_title mb-2">Analytics</span>
+</div>
+<div class="row">
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card green-card card-stats">
+      <div class="card-body card-align">
+        <div class="card-img mb-2">
+          <img src="assets/img/icons/inbox.svg" alt="">
+        </div>
+        <span class="card-text mb-1">Total Projects</span>
+        <span class="card-number mb-1 ml-1">5</span>
+      </div>
+      <div class="card-footer "></div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card green-card card-stats">
+      <div class="card-body card-align">
+        <div class="card-img mb-2">
+          <img src="assets/img/icons/financebg.svg" alt="">
+          <img src="assets/img/icons/finance.svg" style="position: relative;bottom: 54px;left: 13px;" alt="">
+        </div>
+        <span class="card-text mb-1">Financed Projects</span>
+        <span class="card-number mb-1 ml-1 blue-txt">3/5</span>
+      </div>
+      <div class="card-footer "></div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card green-card card-stats">
+      <div class="card-body card-align">
+        <div class="card-img mb-2">
+          <img src="assets/img/icons/check.svg" alt="">
+        </div>
+        <span class="card-text mb-1">Finaned Policies</span>
+        <span class="card-number mb-1 ml-1">3/3</span>
+      </div>
+      <div class="card-footer "></div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card green-card card-stats" style="background-color: #FFFAF7;">
+      <div class="card-body card-align">
+        <div class="card-img mb-2">
+          <img src="assets/img/icons/target.svg" alt="">
+        </div>
+        <span class="card-text mb-1">Financing Efficiency</span>
+        <span class="card-number mb-1 ml-1 red-txt">40%</span>
+      </div>
+      <div class="card-footer "></div>
+    </div>
+  </div>
+</div>
+<!-- 2nd row  -->
+<div class="row sec-row">
+  <div class="col-lg-8 col-md-8">
+    <div id="tabs">
+      <ul class="nav nav-tabs" id="user-nav-tabs">
+        <li role="presentation" class="active"><a  class="#c1">Priority</a></li>
+        <li role="presentation"><a  class="#c2">Budget</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      <div id="content1">
+        <canvas id=chartHours width="764" height="355"></canvas>
+      </div>
+      <div id="content2">
+        <canvas id=stackbudget width="764" height="355"></canvas>
+      </div>
+    </div>
+    <!-- <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link" href="#profile" role="tab" data-toggle="tab">Priority</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">Budget</a>
+      </li>
+    </ul>
+    <canvas id=chartHours width="764" height="355"></canvas> -->
+    <!-- Tab panes -->
+    <!-- <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="profile">...</div>
+      <div role="tabpanel" class="tab-pane fade p-3" id="buzz"></div>
+      <div role="tabpanel" class="tab-pane fade" id="references">ccc</div>
+    </div> -->
+  </div>
+  <div class="col-lg-4 col-md-4">
+    <div class="card budget-card mt-1">
+      <div class="budget-card-title">
+        <span>BUDGET</span>
+        <button>View Report</button>
+      </div>
+      <div class="budget-date">
+        Fom 1-6 Dec,2021
+      </div>
+      <div class="budget-body row">
+        <div class="col-lg-5">
+          <div class="budget-chart">
+            <canvas id=chartbudget width="44" height="55"></canvas>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="budget-list">
+            <ul>
+              <li><span class="text">Total Budget</span><div class="price">₦1.96T</div></li>
+              <li><span class="text">Total Budget Released</span><div class="price">₦1.96T</div></li>
+              <li><span class="text">Total Budget Utilised</span><div class="price">₦1.96T</div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="budget-card-footer">
+        <div class="budget-row">
+          <div class="price-logo" style="background-color: #FFEADA;">
+            <span style="background-color: #F79042;color: #FFEADA;">₦</span>
+          </div>
+          <div class="progress-box">
+            <div class="progress-main">
+              <div class="progress">
+                <div class="progress-bar bg-orange" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <span>100%</span>
+            </div>
+            <span class="mt-1 text-secondary" style="font-size: 12px;">Total Budget Utilised</span>
+          </div>
+        </div>
+        <div class="budget-row">
+          <div class="price-logo" style="background-color: #DDF9E4;">
+            <span style="background-color: #017D34;color: #DDF9E4;">₦</span>
+          </div>
+          <div class="progress-box">
+            <div class="progress-main">
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <span>25%</span>
+            </div>
+            <span class="mt-1 text-secondary" style="font-size: 12px;">Total Budget Released</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 3rd row  -->
+<div class="row">
+  <div class="col-lg-3 col-md-12">
+    <div class="card border-card">
+      <div class="card-header policy-head">
+        <span>Policies Financed by MDAs</span>
+      </div>
+      <div class="card-body policy-body">
+        <div>
+          Ministry Of Petroleum Resources
+          <span>0/0</span>
+        </div>
+        <div>
+          Ministry Of Finance,Budget And National Planning
+          <span>0/0</span>
+        </div>
+        <div>
+          Ministry Of Petroleum Resources
+          <span>0/0</span>
+        </div>
+        <div>
+          Ministry Of Petroleum Resources
+          <span>0/0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-9">
+    <div class="card border-card">
+      <div class="card-header policy-head">
+        <span>Policies Financed by MDAs</span>
+      </div>
+      <div class="card-body d-flex">
+        <div class="proj-card">
+          <span class="title">FMARD</span>
+          <span>1044/1016</span>
+        </div>
+
+        <div class="proj-card">
+          <span class="title">FMWH</span>
+          <span>678/774</span>
+        </div>
+
+        <div class="proj-card">
+          <span class="title">FMP</span>
+          <span>0/607</span>
+        </div>
+
+        <div class="proj-card">
+          <span class="title">FMARD</span>
+          <span>1044/1016</span>
+        </div>
+
+        <div class="proj-card">
+          <div class="img"><img src="assets/img/icons/plus.svg" alt=""></div>
+          <span class="title">Add Project</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 4th row  -->
+<div class="row">
+  <div class="col-lg-7">
+    <div class="tablecard">
+
+      <div class="head">
+        <span>
+          Total Reporting Rate
+        </span>
+        <span class="filt">
+          Total Reporting Rate
+          <i class="nc-icon nc-minimal-down"></i>
+        </span>
+      </div>
+
+      <div class="filter">
+        <div>
+          Search
+          <span>
+            <input type="text">
+            <i class="nc-icon nc-zoom-split"></i>
+          </span>
+        </div>
+        <button>All</button>
+        <span>Not Completed</span>
+        <span>Completed</span>
+      </div>
+
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+          </tr>
+          <tr>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+          </tr>
+          <tr>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+          </tr>
+          <tr>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+          </tr>
+          <tr>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+          </tr>
+          <tr>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+          </tr>
+          <tr>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+          </tr>
+          <tr>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+            <td>MSDIA</td>
+            <td>0/3</td>
+            <td class="table-per">0%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-lg-5 col-md-8">
+    <div class="chartcard">
+      <div class="chartheader">
+        <button class="green-btn">All</button>
+        <button>Q1</button>
+        <button>Q2</button>
+        <button>Q3</button>
+        <button>Q4</button>
+      </div>
+      <div class="chart">
+        <div class="row rowextend">
+          <div class="col-lg-7">
+            <canvas id=reportChart width="px" height="55px"></canvas>
+            <div class="donut-inner">
+              <h5>44 %</h5>
+              <span>Reported</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

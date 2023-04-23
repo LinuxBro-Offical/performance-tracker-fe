@@ -1,0 +1,586 @@
+<div class="row align-items-baseline justify-content-between">
+    <div>
+        <span class="page_title mb-4">Fiscal managment</span>
+        <span class="page_sub">Capital Budget for 2021<i class="nc-icon nc-minimal-down text-dark font-weight-bold mt-2 ml-2"></i></span>
+    </div>
+    <div class="row justify-content-end mt-2">
+        <div class="d-flex flex-row">
+          <button class="add-btn align-items-center d-flex mr-3 ml-4" data-toggle="modal" data-target="#createuserModal" style="background: #68B04D;">
+            Purge By Ministry <i class="nc-icon nc-minimal-down ml-2"></i>
+          </button>
+          <button class="add-button align-items-center d-flex mr-2" style="background: #36A9B0;">
+              <img src="assets/img/icons/blueplus.svg" alt="">
+              Upload Budget
+          </button>
+          <button class="align-items-center requstbtn mr-3 pl-4 pr-4">
+            Purge
+          </button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <span class="pending">Approved budget line items and project for the current active year
+    </span>
+</div>
+
+<div class="secondrow">
+    <div class="d-flex flex-row">
+        <button class="filterbtn mr-2"><img src="assets/img/icons/filter.svg" alt="" class="mr-1"> <span class="mr-3">Filter</span></button>
+        <div class="input-group no-border">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <i class="nc-icon nc-zoom-split search-icon"></i>
+              <i class="nc-icon nc-minimal-down down-icon"></i>
+            </div>
+            <input type="text" value="" class="form-control" placeholder="Search :" style="width: 402px;">
+          </div>
+        </div>
+    </div>
+
+    <div id="tabs">
+        <ul class="nav nav-tabs" id="user-nav-tabs">
+            <li role="presentation" class="active"><a  class="#c1">Budget</a></li>
+            <li role="presentation"><a  class="#c2">Releases</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="content">
+    <div id="content1">
+        <table class="table table-borderless" id="ministryTable">
+            <thead>
+              <tr>
+                <th><input type="checkbox" value="Bike"></th>
+                <th>#</th>
+                <th class="text-gre">Ministry</th>
+                <th class="text-gre">Code</th>
+                <th class="text-gre">Line Item</th>
+                <th class="text-gre">Cost</th>
+                <th class="text-gre">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>P2D1</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" value="Bike"></td>
+                <td>1</td>
+                <td>FMA</td>
+                <td>FEC 221</td>
+                <td>lorem epsium</td>
+                <td class="text-gre">₦1.96T</td>
+                <td><a><img src="assets/img/icons/more.svg" alt=""></a></td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="content2">
+        <div id="fiscaltabs">
+            <ul class="nav nav-tabs" id="fiscal-nav-tabs">
+              <li role="presentation" class="active"><a  class="#c3">1st Quarter</a></li>
+              <li role="presentation"><a  class="#c4">2nd Quarter</a></li>
+              <li role="presentation"><a  class="#c5">3rd Quarter</a></li>
+              <li role="presentation"><a  class="#c6">4th Quarter</a></li>
+            </ul>
+        </div>
+        <div id="new_contents">
+            <div id="content3" style="display: block;">
+                <table class="table table-borderless mt-4" id="ministryTable">
+                    <thead>
+                      <tr>
+                        <th><input type="checkbox" value="Bike"></th>
+                        <th>#</th>
+                        <th class="text-gre">Ministry</th>
+                        <th class="text-gre">Appropriated</th>
+                        <th class="text-gre">Released</th>
+                        <th class="text-gre">Utalized</th>
+                        <th class="text-gre">Rate(%)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>P2D1</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" value="Bike"></td>
+                        <td>1</td>
+                        <td>FMA</td>
+                        <td>FEC 221</td>
+                        <td>lorem epsium</td>
+                        <td>₦1.96T</td>
+                        <td class="text-gre">₦1.96T</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="content4"></div>
+            <div id="content5"></div>
+            <div id="content6"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg" id="createuserModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header d-flex flex-column">
+            <h5 class="modal-title" id="exampleModalLabel">OAGF Report Upload</h5>
+            <span class="modal-title-text">Office of the Accountant General of the Federation Report Upload</span>
+        </div>
+        <div class="modal-body d-flex flex-column">
+          <div class="multi-modal">
+               <div class="numbers">
+                    <div><span class="num active">1</span><span class="txt">select report details</span></div>
+                    <div><span class="num" id="num2">2</span><span class="txt">upload report files</span></div>
+                    <div><span class="num" id="num3">3</span><span class="txt">preview of your data</span></div>
+               </div>
+               <div class="content1">
+                   <label for="">Select Realese</label>
+                   <select name="" id="" class="form-control" placeholder="Select">
+                    <option value="" selected>Select</option>
+                   </select>
+                   <label for="">Select Year</label>
+                   <select name="" id="" class="form-control" placeholder="Select">
+                     <option value="" selected>Select</option>
+                   </select>
+               </div>
+               <div class="content2 d-none">
+                  <label for="">Select Files to Upload </label>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <input type="file" name="file" id="file" class="file">
+                    <div class="d-flex">
+                      <input type="text" name="file-name" id="file-name" class="file-name" readonly="readonly">
+                      <input type="button" class="btn-sel" value="Browse">
+                    </div>
+                  </div>
+               </div>
+               <div class="content3 d-none">
+                  <div class="oagfcard">
+                    <div><span>Quarter :</span>First quarter</div>
+                    <div><span>File name :</span>Lorem epsium</div>
+                    <div><span>Date :</span>2021.</div>
+                  </div>
+               </div>
+          </div>
+          <div class="footer">
+            <button class="submit" id="next">Next</button>
+            <button class="submit d-none" id="next1">Next</button>
+            <button class="submit d-none" id="next2">Upload Budget</button>
+          </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>

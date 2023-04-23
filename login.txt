@@ -1,0 +1,14 @@
+As an admin user
+USERNAME: admin@sgfpms.ng
+PASSWORD: osgf@dm1n
+
+
+As an MDA user
+USERNAME: aliu.adepoju@gmail.com
+PASSWORD: 12345678
+
+
+
+BASE_URL https://api.sgf-project.xyz/v1/
+API doc: http://api-doc.sgf-project.xyz/
+POSTMAN collection: http://sgf.test/v1/POSTMAN_collection.json

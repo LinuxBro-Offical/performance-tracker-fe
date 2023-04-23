@@ -1,0 +1,6 @@
+{
+    "api.sgf-project.xyz/v1/": {
+      "target": "http://localhost:3000",
+      "secure": true
+    }
+  }
