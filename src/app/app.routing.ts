@@ -12,7 +12,7 @@ export const AppRoutes: Routes = [
   {
     path: 'user',
     component: UserLayoutComponent,
-    canActivate:([AuthGuard]),
+    // canActivate:([AuthGuard]),
     children: [
         {
       path: '',
@@ -25,7 +25,7 @@ export const AppRoutes: Routes = [
   }, {
     path: '',
     component: AdminLayoutComponent,
-    canActivate:([AuthGuard]),
+    // canActivate:([AuthGuard]),
     children: [
         {
       path: '',
